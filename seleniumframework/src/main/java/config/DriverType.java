@@ -26,7 +26,7 @@ public enum DriverType implements DriverSetup {
             return new ChromeDriver(capabilities);
         }
     },
-    FireFox {
+    FIREFOX {
         public DesiredCapabilities getDesiredCapabilities() {
             DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
             desiredCapabilities.setCapability("marionette", true);
