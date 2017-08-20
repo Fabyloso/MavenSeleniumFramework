@@ -7,6 +7,6 @@ public interface DriverSetup {
 
     WebDriver getWebDriver(DesiredCapabilities desiredCapabilities);
 
-    DesiredCapabilities getDesiredCapabilites();
+    DesiredCapabilities getDesiredCapabilities();
 
 }
