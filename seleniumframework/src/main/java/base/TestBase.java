@@ -1,6 +1,6 @@
 package base;
 
-import config.DriverFactory;
+import driver.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
