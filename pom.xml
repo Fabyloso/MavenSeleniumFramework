@@ -7,6 +7,12 @@
     <groupId>fabyloso</groupId>
     <artifactId>maven-selenium-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>seleniumframework</module>
+        <module>automationPractice</module>
+    </modules>
 
     <name>Maven-Selenium-Framework</name>
     <description>A Maven Template For Selenium</description>
